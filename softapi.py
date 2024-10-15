@@ -63,6 +63,7 @@ app.add_middleware(
         "http://localhost:3000",
         "http://localhost:8000",
         "https://datawaveapi.onrender.com"
+        "https://softwave-innovate.tech"
     ],
     allow_credentials=True,
     allow_methods=["*"],
