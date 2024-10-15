@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 # Configuración de la base de datos
 DATABASE_URL = "postgresql://postgres:R4kav3liYT@localhost/softwave"
-
+#DATABASE_URL = "postgresql://softwavedb_user:NPkYyKEeti5wFmvk9r3jXH7Xg93f2pOq@dpg-cs6vvtl6l47c738uam40-a.frankfurt-postgres.render.com/softwavedb"
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
